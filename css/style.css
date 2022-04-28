@@ -1,0 +1,272 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* COMMON */
+body {
+    font-family: sans-serif;
+    color: #23272a;
+}
+
+.container {
+    margin: 0 auto;
+    width: 60%;
+
+    /* TEST */
+    height: 100%;
+}
+
+h1 {
+    padding: 30px 0;
+    font-size: 35px;
+}
+
+nav > ul {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    font-size: 0.8rem;
+    padding: 0.8em 1em;
+    border-style: none;
+    border-radius: 2em;
+}
+
+
+/* HEADER */
+header {
+    padding-bottom: 90px;
+    color: white;
+    background: url("../img/jumbo.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* HEADER TOP */
+.header-top > .container{
+    padding: 20px 0;
+    width: 80%;
+}
+
+.flex-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    /* TEST */
+    height: 100%;
+}
+
+.logo {
+    padding: 0;
+    width: 20%;
+}
+
+.logo.flex-container img{
+    width: 50%;
+}
+
+/* NAV */
+.header-nav-bar {
+    width: 60%;
+}
+
+.header-nav-bar li {
+    padding: 0 20px;
+}
+
+.user-side {
+    width: 20%;
+    text-align: right;
+}
+
+.user-side > button {
+    font-size: 12px;
+}
+
+
+/* HEADER BOTTOM */
+.header-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron {
+    padding-top: 60px;
+    width: 50%;
+    text-align: center;
+}
+
+.jumbotron > p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.jumbotron > button {
+    margin: 20px 10px 0;
+    font-size: 15px;
+
+}
+
+.jumbotron > button:last-child {
+    color: white;
+    background-color: #23272a;
+}
+
+
+/* MAIN */
+.main-top > section {
+
+    /* TEST */
+    height: 450px;
+}
+
+main section:nth-child(even) {
+
+    /* TEST */
+    background-color: #d3d3d3;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+
+    /* TEST */
+    height: 100%;
+}
+
+.flex > div {
+
+    /* TEST */
+    border: 2px dotted black;
+}
+
+.flex.top > div {
+
+    /* TEST */
+    height: 80%;
+}
+
+.blue {
+    width: 60%;
+
+    /* TEST */
+    background-color: #1e90ff;
+}
+
+.pink {
+    width: 40%;
+
+    /* TEST */
+    background-color: #ffc0cb;
+}
+
+
+/* MAIN BOTTOM */
+.main-bottom {
+
+    /* TEST */
+    height: 600px;
+}
+
+.flex.bottom > div {
+
+    /* TEST */
+    height: 85%;
+}
+
+.green {
+    width: 100%;
+
+    /* TEST */
+    background-color: #228b22;
+}
+
+
+/* FOOTER */
+footer {
+
+    /* TEST */
+    height: 500px;
+    background-color: #23272a;
+}
+
+footer > div {
+
+    /* TEST */
+    border: 1px solid white;
+}
+
+
+/* FOOTER TOP */
+.footer-top {
+
+    /* TEST */
+    height: 430px;
+}
+
+.foot-flex {
+    display: flex;
+    align-items: center;
+
+    /* TEST */
+    height: 100%;
+}
+
+.foot-flex > div {
+    width: calc(70% / 4);
+
+    /* TEST */
+    height: 90%;
+    border: 2px dotted white;
+    background-color: #20b2aa;
+}
+
+.foot-flex > div:first-child {
+    width: 30%;
+
+    /* TEST */
+    background-color: #f08080;
+    border-color: black;
+}
+
+
+/* FOOTER BOTTOM */
+.footer-bottom {
+
+    /* TEST */
+    height: 70px;
+}
+
+.flex-container.foot {
+    padding: 0;
+    justify-content: space-between;
+
+    /* TEST */
+    height: 70%;
+    background-color: #7fffd4;
+}
+
+.footer-logo,
+.footer-button {
+
+    /* TEST */
+    background-color: #ffb6c1;
+}
