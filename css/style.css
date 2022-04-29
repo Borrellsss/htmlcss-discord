@@ -8,7 +8,7 @@
 
 /* COMMON */
 body {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #23272a;
 }
 
@@ -36,12 +36,14 @@ ul {
 }
 
 a {
+    font-weight: inherit;
     text-decoration: none;
     color: inherit;
 }
 
 button {
     font-size: 0.8rem;
+    font-weight: 100;
     padding: 0.8em 1em;
     border-style: none;
     border-radius: 2em;
@@ -82,6 +84,7 @@ header {
     width: 50%;
 }
 
+
 /* NAV */
 .header-nav-bar {
     width: 60%;
@@ -96,7 +99,7 @@ header {
     text-align: right;
 }
 
-.user-side > button {
+.user-side a {
     font-size: 12px;
 }
 
@@ -133,70 +136,89 @@ header {
 
 /* MAIN */
 .main-top > section {
-
-    /* TEST */
-    height: 450px;
+    padding: 40px 0;
 }
 
 main section:nth-child(even) {
-
-    /* TEST */
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
 }
 
 .flex {
     display: flex;
     align-items: center;
-
-    /* TEST */
+    
+    /* test */
     height: 100%;
 }
 
-.flex > div {
 
-    /* TEST */
-    border: 2px dotted black;
-}
-
-.flex.top > div {
-
-    /* TEST */
-    height: 80%;
-}
-
-.blue {
+/* MAIN TOP */
+.item {
     width: 60%;
-
-    /* TEST */
-    background-color: #1e90ff;
 }
 
-.pink {
-    width: 40%;
+.item > img {
+    width: 100%;
+}
 
-    /* TEST */
-    background-color: #ffc0cb;
+.sub-item {
+    padding: 0 15px;
+    width: 40%;
+}
+
+.sub-item > span,
+.bottom-text > span {
+    padding: 20px 0;
+    display: block;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+main p {
+    font-size: 13px;
+    line-height: 18px;
 }
 
 
 /* MAIN BOTTOM */
 .main-bottom {
-
-    /* TEST */
-    height: 600px;
+    padding: 20px 0;
 }
 
-.flex.bottom > div {
-
-    /* TEST */
-    height: 85%;
-}
-
-.green {
+.bottom-text {
     width: 100%;
+    text-align: center;
+}
 
-    /* TEST */
-    background-color: #228b22;
+.bottom-text > img {
+    padding-bottom: 40px;
+    width: 100%;
+}
+
+.stars {
+    margin: 0 auto;
+    padding: 15px 20px 0;
+    width: 50%;
+    background: url("../img/stars.svg");
+    background-size: 100%;
+    background-position: top;
+}
+
+.stars > div {
+    margin: 0 auto;
+    width: 90%;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #f6f6f6;
+}
+
+.bottom-text > div:last-child {
+    padding: 30px 0 60px;
+}
+
+.bottom-text button {
+    color: white;
+    background-color: #7289da;
 }
 
 
