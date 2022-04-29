@@ -5,10 +5,9 @@
     box-sizing: border-box;
 }
 
-
 /* COMMON */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Whitney", 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #23272a;
 }
 
@@ -21,8 +20,19 @@ body {
 }
 
 h1 {
-    padding: 30px 0;
-    font-size: 35px;
+    padding: 25px 0;
+    font-size: 30px;
+}
+
+h2 {
+    padding: 20px 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 11px;
+    line-height: 20px;
 }
 
 nav > ul {
@@ -35,6 +45,10 @@ ul {
     list-style-type: none;
 }
 
+li > a {
+    font-size: 10px;
+}
+
 a {
     font-weight: inherit;
     text-decoration: none;
@@ -42,32 +56,31 @@ a {
 }
 
 button {
-    font-size: 0.8rem;
-    font-weight: 100;
-    padding: 0.8em 1em;
+    font-size: 10px;
+    padding: 1em 1.2em;
     border-style: none;
     border-radius: 2em;
+    background-color: white;
 }
 
+img {
+    width: 100%;
+    display: block;
+}
 
 /* HEADER */
 header {
-    padding-bottom: 90px;
     color: white;
-    background: url("../img/jumbo.png");
-    background-size: cover;
-    background-position: center;
 }
 
 
-/* HEADER TOP */
-.header-top > .container{
-    padding: 20px 0;
-    width: 80%;
+/* header top */
+.header-top{
+    padding: 10px 0;
+    background-color: #255ee9;
 }
 
 .flex-container {
-    width: 100%;
     display: flex;
     align-items: center;
 
@@ -80,10 +93,9 @@ header {
     width: 20%;
 }
 
-.logo.flex-container img{
-    width: 50%;
+.logo img{
+    width: 60%;
 }
-
 
 /* NAV */
 .header-nav-bar {
@@ -91,7 +103,7 @@ header {
 }
 
 .header-nav-bar li {
-    padding: 0 20px;
+    padding: 0 15px;
 }
 
 .user-side {
@@ -99,32 +111,29 @@ header {
     text-align: right;
 }
 
-.user-side a {
-    font-size: 12px;
-}
-
-
-/* HEADER BOTTOM */
+/* header bottom */
 .header-bottom {
+    padding: 90px 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url("../img/jumbo.png");
+    background-size: cover;
+    background-position: center;
 }
 
 .jumbotron {
-    padding-top: 60px;
     width: 50%;
     text-align: center;
 }
 
 .jumbotron > p {
-    font-size: 15px;
-    line-height: 25px;
+    padding-bottom: 10px;
 }
 
 .jumbotron > button {
-    margin: 20px 10px 0;
-    font-size: 15px;
+    margin: 0 5px;
+    font-size: 12px;
 
 }
 
@@ -135,24 +144,17 @@ header {
 
 
 /* MAIN */
-.main-top > section {
-    padding: 40px 0;
-}
-
 main section:nth-child(even) {
     background-color: #f6f6f6;
 }
 
 .flex {
+    padding: 60px 0;
     display: flex;
     align-items: center;
-    
-    /* test */
-    height: 100%;
 }
 
-
-/* MAIN TOP */
+/* main top */
 .item {
     width: 60%;
 }
@@ -162,29 +164,11 @@ main section:nth-child(even) {
 }
 
 .sub-item {
-    padding: 0 15px;
+    padding: 0 20px;
     width: 40%;
 }
 
-.sub-item > span,
-.bottom-text > span {
-    padding: 20px 0;
-    display: block;
-    font-size: 34px;
-    font-weight: 700;
-}
-
-main p {
-    font-size: 13px;
-    line-height: 18px;
-}
-
-
-/* MAIN BOTTOM */
-.main-bottom {
-    padding: 20px 0;
-}
-
+/* main bottom */
 .bottom-text {
     width: 100%;
     text-align: center;
@@ -195,10 +179,11 @@ main p {
     width: 100%;
 }
 
+/* stars decoration */
 .stars {
     margin: 0 auto;
-    padding: 15px 20px 0;
-    width: 50%;
+    padding: 16px 20px 0;
+    width: 60%;
     background: url("../img/stars.svg");
     background-size: 100%;
     background-position: top;
@@ -213,14 +198,13 @@ main p {
 }
 
 .bottom-text > div:last-child {
-    padding: 30px 0 60px;
+    padding: 30px 0;
 }
 
 .bottom-text button {
     color: white;
     background-color: #7289da;
 }
-
 
 /* FOOTER */
 footer {
