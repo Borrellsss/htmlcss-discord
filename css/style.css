@@ -14,9 +14,6 @@ body {
 .container {
     margin: 0 auto;
     width: 60%;
-
-    /* TEST */
-    height: 100%;
 }
 
 h1 {
@@ -82,18 +79,14 @@ header {
 .flex-container {
     display: flex;
     align-items: center;
-
-    /* TEST */
-    height: 100%;
 }
 
 .logo {
-    padding: 0;
     width: 20%;
 }
 
 .logo img{
-    width: 60%;
+    width: 90px;
 }
 
 /* NAV */
@@ -217,6 +210,7 @@ footer {
     display: flex;
 }
 
+/* italy logo */
 .footer-top img {
     padding-right: 2px;
     width: 18px;
@@ -243,6 +237,7 @@ footer {
     padding-left: 2px;
 }
 
+/* socials reference */
 .socials {
     display: flex;
     color: white;
@@ -256,23 +251,15 @@ footer {
 
 /* footer bottom */
 .footer-bottom {
-
-    /* TEST */
-    height: 70px;
+    padding: 15px 0 45px;
 }
 
-.flex-container.foot {
-    padding: 0;
+.footer-flex-container {
+    display: flex;
     justify-content: space-between;
-
-    /* TEST */
-    height: 70%;
-    background-color: #7fffd4;
 }
 
-.footer-logo,
 .footer-button {
-
-    /* TEST */
-    background-color: #ffb6c1;
+    background-color: #7289da;
+    color: white;
 }
